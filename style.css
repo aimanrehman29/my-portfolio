@@ -1,0 +1,401 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px
+}
+
+.name {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
+}
+
+.name:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 5% 0 5%;
+    width: 100%;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00b4d8;
+}
+.onpage{
+    text-underline-position: below;
+    color: #00b4d8;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+.logo:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.me {
+    width: 500px;
+    height: auto;
+    padding: 0 0 0 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.me:hover {
+
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+}
+
+.hero {
+    background-color: #1a1a1a;
+    padding: 50px 0;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    /*text-align: center;*/
+    background-color: #1a1a1a;
+    height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.hero-text {
+    color: #fff;
+    max-width: 40%;
+
+}
+
+.hero-text h1 span {
+    color: #00b4d8;
+}
+
+
+.button div {
+    display: flex;
+   
+    gap: 10px;
+    
+    justify-content: center;
+   
+    margin-bottom: 15px;
+   
+}
+
+.a,
+.a1,
+.a2 {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #00b4d8;
+    border-radius: 5px;
+    color: black;
+    background-color: #00b4d8;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.a:hover,
+.a1:hover,
+.a2:hover {
+    background-color: black;
+    color: #00b4d8;
+}
+
+.hero-image img {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+.hero-image img:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.hero h1 span {
+    color: #00b4d8;
+}
+
+.socailmedia a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background: #393b3b09;
+    border-radius: 8px;
+    margin-right: 10px;
+    justify-content: center;
+    height: 10px;
+}
+
+.socailmedia {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+
+
+}
+
+.linkedin {
+    width: 40px;
+    height: auto;
+    display: block;
+
+}
+
+.github {
+    width: 15px;
+    height: auto;
+    display: block;
+}
+
+.about,
+.journey,
+.skills,
+.contact {
+    background-color: #1a1a1a;
+    margin-top: 20px;
+    padding: 50px 0 0 0;
+    text-align: center;
+    background-color: #1a1a1a;
+    height: 100vh;
+    /* Full viewport height*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.container-2 {
+    justify-content: space-between;
+    background-color: #1a1a1a;
+    margin-top: 20px 5px 20px 5px;
+    padding: 50px 5px 10px 5px;
+    text-align: center;
+    background-color: #1a1a1a;
+    height: 100vh;
+    /* Full viewport height*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    padding-left: 100px;
+    /* Adjust as needed */
+    padding-right: 100px;
+    padding-top: 20px;
+    margin-bottom: auto;
+    padding: bottom 15px;
+    ;
+}
+
+
+.about h2 span,
+.journey h2 span,
+.skills h2 span,
+.contact h2 span,
+.container-2 h3 span {
+    color: #00b4d8;
+}
+
+
+.picture {
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+    margin: 30px auto;
+}
+
+.picture:hover {
+    color: #333;
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.picture-2 {
+    width: 200px;
+    height: 250px;
+
+    border-radius: 20%;
+    margin: 30px auto;
+}
+
+.picture-2:hover {
+    color: #333;
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: opacity 0.3s, transform 0.3s;
+}
+.education h3, h3{
+    color:#00b4d8;
+}
+
+
+
+.projects{
+    transition: opacity 0.3s, transform 0.3s;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 10px 15px 20px 5px;
+    border: solid #00b4d8;
+}
+.projects h1{
+    color: #00b4d8;
+}
+.projects:hover{
+    opacity: 0.9;
+    transform: scale(1.1);
+    transition: opacity 0.3s, transform 0.3s;
+}
+.projects img{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.btn, .btn-2, .btn-5, .btn-6{
+  border-radius: 10px;
+  color: #000;
+  background: #00b4d8;
+}
+.btn-2, .btn-5, .btn-6{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  
+}
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.skill .bar {
+    background-color: #333;
+    width: 70%;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.skill .bar span {
+    display: block;
+    height: 100%;
+    background-color: #00b4d8;
+}
+
+.placeholder{
+    max-width: 1200px;
+    height: 1200px;
+    text-align: center;
+    margin:100px;
+}
+
+.code input {
+    margin: 10px;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    color: #000;
+    background:#00b4d8;
+    border-style: hidden;
+    text-align: center;
+}
+.code textarea{
+    margin: 10px;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    color: #000;
+    background:#ebebeb;
+    border-style: hidden;
+    text-align: center
+    
+}
+.code button{
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    color: #000;
+    background:#00b4d8;
+    border-style: hidden;
+    text-align: center
+    
+}
+.code button:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: opacity 0.3s, transform 0.3s;
+}
